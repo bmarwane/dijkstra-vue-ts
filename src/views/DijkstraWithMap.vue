@@ -33,13 +33,13 @@
       <p>On a dans cet exemple 3 types de "routes"</p>
       <ul class="list-unstyled routes-info">
         <li>
-          <span class="normal_route">&nbsp;</span> Trafic normal ( poid = 1)
+          <span class="normal_route">&nbsp;</span> Trafic normal ( poids = 1)
         </li>
         <li>
-          <span class="road_construction_route"></span> Travaux sur la route ( poid = 5)
+          <span class="road_construction_route"></span> Travaux sur la route ( poids = 5)
         </li>
         <li>
-          <span class="crowded_route"></span> Embouteillage sur la route ( poid = 9)
+          <span class="crowded_route"></span> Embouteillage sur la route ( poids = 9)
         </li>
       </ul>
     </div>
