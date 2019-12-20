@@ -23,7 +23,12 @@
       <h3>Algorithme de Dijkstra</h3>
       <p>Exemple d'implémentation avec Vue et Typescript</p>
 
-      <div class="alert alert-primary" role="alert">Cliquez sur deux noeuds pour tester l'algorithme</div>
+      <div class="alert alert-primary" role="alert">
+        <ul class="list-unstyled">
+          <li>cliquez sur les liens entre les nœuds pour changer le type de routes</li>
+          <li>Cliquez sur deux noeuds pour tester l'algorithme</li>
+        </ul>
+      </div>
 
       <hr />
 
@@ -36,10 +41,10 @@
           <span class="normal_route">&nbsp;</span> Trafic normal ( poids = 1)
         </li>
         <li>
-          <span class="road_construction_route"></span> Travaux sur la route ( poids = 5)
+          <span class="road_construction_route"></span> Travaux sur la route ( poids = 3)
         </li>
         <li>
-          <span class="crowded_route"></span> Embouteillage sur la route ( poids = 9)
+          <span class="crowded_route"></span> Embouteillage sur la route ( poids = 5)
         </li>
       </ul>
     </div>
@@ -160,26 +165,26 @@ export default class DijkstraWithMap extends Vue {
       [0, 1, 1],
       [0, 2, 1],
       [2, 4, 1],
-      [2, 3, 1],
+      [2, 3, 3],
       [1, 3, 1],
       [3, 12, 1],
       [12, 5, 1],
       [4, 5, 1],
-      [4, 6, 1],
+      [4, 6, 5],
       [5, 7, 1],
-      [6, 7, 1],
+      [6, 7, 3],
       [6, 8, 1],
-      [7, 17, 1],
+      [7, 17, 5],
       [8, 9, 1],
       [8, 10, 1],
       [17, 9, 1],
       [10, 11, 1],
       [9, 11, 1],
-      [1, 14, 1],
+      [1, 14, 5],
       [14, 13, 1],
       [12, 13, 1],
       [13, 15, 1],
-      [15, 16, 1],
+      [15, 16, 3],
       [17, 16, 1],
       [16, 18, 1],
       [11, 18, 1]
