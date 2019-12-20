@@ -179,7 +179,7 @@ export default class Visualizer2 extends Vue {
 
 <style lang="scss" scoped>
 .root {
-  background-image: url("/assets/gmap.png");
+  background-image: url("../assets/gmap.png");
 }
 
 .node {
