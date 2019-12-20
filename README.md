@@ -25,3 +25,7 @@ start by clicking on the roads to change their state, here are the available sta
 - traffic jam (red)
 
 click on two nodes then click on the green button to search the shortest path.
+
+## Demo
+
+https://bmarwane.github.io/dijkstra-vue-ts/
