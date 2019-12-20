@@ -16,7 +16,7 @@
           class="btn btn-success btn-block mt-2"
           :disabled="searching || !this.startingNode || !this.endNode"
           @click="searchPath"
-        >Calculer le chemin</button>
+        >GO</button>
       </div>
     </div>
     <div class="readme">

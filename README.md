@@ -1,24 +1,27 @@
-# pathfinding
+# Pathfinding example using Dijkstra Algorithm
 
-## Project setup
+This is an implémentation of Dijkstra algorithm using VueJS + Typescript.
+
+## installation
+
 ```
-yarn install
+yarn i
 ```
 
-### Compiles and hot-reloads for development
+## Run server
+
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+the app with then be available on http://localhost:8080
 
-### Lints and fixes files
-```
-yarn lint
-```
+## use example
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+start by clicking on the roads to change their state, here are the available states:
+
+- normal (gray)
+- works on the road (orange)
+- traffic jam (red)
+
+click on two nodes then click on the green button to search the shortest path.
