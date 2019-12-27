@@ -55,8 +55,8 @@
 import { Component, Vue, Prop } from "vue-property-decorator";
 
 import Visualizer from "../components/Visualizer.vue";
-import { NodeData, TwoWaysLink } from "../data/Node";
-import { findPath, Recording, SearchResult } from "../data/dijkstra";
+import { NodeData, TwoWaysLink } from "../dijkstra/types";
+import { findPath, Recording, SearchResult } from "../dijkstra/dijkstra";
 
 @Component({
   components: {

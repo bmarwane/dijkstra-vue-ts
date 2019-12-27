@@ -1,5 +1,5 @@
 export class NodeData {
-  index: number; // to debug
+  index: number;
   x: number = 0;
   y: number = 0;
 
@@ -14,7 +14,6 @@ export class TwoWaysLink {
   pointA!: NodeData;
   pointB!: NodeData;
   weight: number = 1;
-  // deprecated
   visitState: VisitState = VisitState.unvisited;
 }
 

@@ -1,4 +1,4 @@
-import { NodeData, VisitState, TwoWaysLink } from "./Node";
+import { NodeData, VisitState, TwoWaysLink } from "./types";
 
 export function findPath(
   nodes: NodeData[],

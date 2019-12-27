@@ -24,10 +24,10 @@
 
 <script lang="ts">
 import { Component, Vue, Prop, Watch } from "vue-property-decorator";
-import { NodeData, VisitState, TwoWaysLink } from "../data/Node";
+import { NodeData, VisitState, TwoWaysLink } from "../dijkstra/types";
 
 import { adjustLine } from "./utils";
-import { SearchResult, Recording } from "../data/dijkstra";
+import { SearchResult, Recording } from "../dijkstra/dijkstra";
 
 function waitForIt(ms: number): Promise<number> {
   return new Promise(resolve => setTimeout(resolve, ms));
