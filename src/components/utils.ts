@@ -36,13 +36,6 @@ export function adjustLine(
 
   line.style.transform = "rotate(" + ANG + "deg)";
 
-  /*
-  line.style["-webkit-transform"] = "rotate(" + ANG + "deg)";
-  line.style["-moz-transform"] = "rotate(" + ANG + "deg)";
-  line.style["-ms-transform"] = "rotate(" + ANG + "deg)";
-  line.style["-o-transform"] = "rotate(" + ANG + "deg)";
-  line.style["-transform"] = "rotate(" + ANG + "deg)";
-  //*/
   line.style.top = top + "px";
   line.style.left = left + "px";
   line.style.height = H + "px";
