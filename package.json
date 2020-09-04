@@ -12,7 +12,7 @@
     "bootstrap": "^4.4.1",
     "core-js": "^3.4.3",
     "jquery": "^3.4.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "sass-loader": "^8.0.0",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
