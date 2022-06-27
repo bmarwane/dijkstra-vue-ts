@@ -1,6 +1,6 @@
 # Pathfinding example using Dijkstra Algorithm
 
-This is an implémentation of Dijkstra algorithm using VueJS + Typescript.
+This is an implementation of Dijkstra algorithm using VueJS + Typescript.
 
 ## installation
 
